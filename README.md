@@ -15,11 +15,9 @@ The main Jupyter notebook file for the project is Water Quality.ipynb, which con
 
 The Water prediction.csv file contains the dataset used for training and testing the prediction model.
 
-The utilities.py file contains utility functions for data preprocessing, EDA, and visualization.
-
 The model.sav file contains the implementation of Random Forest algorithms used for training and predicting water quality.
 
-
+The app.py file contains the implementation for the Streamlit web application.
 
 Requirements
 The project requires the following Python packages:
@@ -67,9 +65,9 @@ Importing necessary libraries
 Loading the trained model and utility functions
 Building the web application using Streamlit
 Header and description
-User input for temperature, pH, and light intensity
+User input for temperature, pH, turbidity and other parameters
 Prediction of water quality using the trained model
 Displaying the predicted water quality
 
 Conclusion
-This project demonstrates the prediction of water quality based on various parameters such as temperature, pH, and light intensity using machine learning algorithms. The project includes data preprocessing, EDA, model training, and prediction, and provides utility functions for data visualization and analysis.
+This project demonstrates the prediction of water quality based on various parameters such as temperature, pH, and chlorine levels using machine learning algorithms. The project includes data preprocessing, EDA, model training, and prediction, and provides utility functions for data visualization and analysis.
