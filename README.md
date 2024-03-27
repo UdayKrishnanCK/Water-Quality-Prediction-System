@@ -1,10 +1,10 @@
 # Water-Quality-Prediction-System
 
-Water Quality Prediction
+**Water Quality Prediction**
 
 This project aims to predict the water quality based on various parameters such as temperature, pH, and light intensity using machine learning algorithms.
 
-Project Description
+**Project Description**
 
    The project includes the following steps:
 
@@ -26,7 +26,7 @@ The model.sav file contains the implementation of Random Forest algorithms used 
 
 The app.py file contains the implementation for the Streamlit web application.
 
-Requirements
+**Requirements**
 
    The project requires the following Python packages:
 
@@ -46,11 +46,11 @@ To install these packages, run the following command in your terminal or command
 
 pip install -r requirements.txt
 
-Dataset
+**Dataset**
 
    The dataset used in this project is Water prediction.csv, which contains features such as temperature, pH, and turbidity of water samples, as well as the corresponding water quality index (WQI) values.
 
-Code Implementation
+**Code Implementation**
 
    The main code implementation for the project is in the Water Quality.ipynb file, which contains the following sections:
 
@@ -106,6 +106,6 @@ The app.py file contains the following code implementation for the Streamlit web
 
    Displaying the predicted water quality
 
-Conclusion
+**Conclusion**
 
 This project demonstrates the prediction of water quality based on various parameters such as temperature, pH, and chlorine levels using machine learning algorithms. The project includes data preprocessing, EDA, model training, and prediction, and provides utility functions for data visualization and analysis.
