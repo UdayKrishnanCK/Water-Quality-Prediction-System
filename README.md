@@ -13,13 +13,13 @@ Model optimization and hyperparameter tuning
 Model deployment and prediction
 The main Jupyter notebook file for the project is Water Quality.ipynb, which contains the complete code implementation for the above steps.
 
-The data.csv file contains the dataset used for training and testing the prediction model.
+The Water prediction.csv file contains the dataset used for training and testing the prediction model.
 
 The utilities.py file contains utility functions for data preprocessing, EDA, and visualization.
 
-The models.py file contains the implementation of Random Forest and Gaussian Naive Bayes algorithms used for training and predicting water quality.
+The model.sav file contains the implementation of Random Forest algorithms used for training and predicting water quality.
 
-The config.py file defines the paths and settings for the project.
+
 
 Requirements
 The project requires the following Python packages:
@@ -35,7 +35,7 @@ To install these packages, run the following command in your terminal or command
 Copy code
 pip install -r requirements.txt
 Dataset
-The dataset used in this project is data.csv, which contains features such as temperature, pH, and light intensity of water samples, as well as the corresponding water quality index (WQI) values.
+The dataset used in this project is Water prediction.csv, which contains features such as temperature, pH, and turbidity of water samples, as well as the corresponding water quality index (WQI) values.
 
 Code Implementation
 The main code implementation for the project is in the Water Quality.ipynb file, which contains the following sections:
@@ -52,29 +52,24 @@ Data correlation
 Pandas Profile report
 Model selection and evaluation
 Random Forest
-Gaussian Naive Bayes
 Model evaluation
 Model optimization and hyperparameter tuning
 Random Forest
-Gaussian Naive Bayes
 Model deployment and prediction
-The utilities.py file contains the following utility functions for the project:
 
-remove_outliers: Removes outliers from a dataset based on a given column
-visualize_correlation: Visualizes the correlation between the features in the dataset
-plot_distribution: Plots the distribution of a given column
-plot_count: Plots the count of values in a given column
-plot_pie: Plots a pie chart of the values in a given column
-plot_kde: Plots a KDE plot of the values in a given column
-plot_data: Plots the data in a given column
-plot_heatmap: Plots a heatmap of the correlation between the features in the dataset
-The models.py file contains the following machine learning models for the project:
+The model.sav file contains the following machine learning models for the project:
 
 RandomForestClassifier: A random forest classifier for predicting water quality
-GaussianNB: A Gaussian naive Bayes classifier for predicting water quality
-The config.py file defines the following paths and settings for the project:
 
-DATA_PATH: Path to the dataset file
-MODELS_PATH: Path to the models directory
+The app.py file contains the following code implementation for the Streamlit web application:
+
+Importing necessary libraries
+Loading the trained model and utility functions
+Building the web application using Streamlit
+Header and description
+User input for temperature, pH, and light intensity
+Prediction of water quality using the trained model
+Displaying the predicted water quality
+
 Conclusion
 This project demonstrates the prediction of water quality based on various parameters such as temperature, pH, and light intensity using machine learning algorithms. The project includes data preprocessing, EDA, model training, and prediction, and provides utility functions for data visualization and analysis.
